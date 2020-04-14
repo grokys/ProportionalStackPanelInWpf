@@ -289,7 +289,7 @@ namespace WpfApp1
 
                 if (!(element is ProportionalStackPanelSplitter))
                 {
-                    element.Measure(remainingRect.Size);
+                    //element.Measure(remainingRect.Size);
                 }
 
                 element.Arrange(remainingRect);
